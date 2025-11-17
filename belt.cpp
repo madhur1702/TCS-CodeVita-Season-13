@@ -8,7 +8,7 @@ int main() {
 
     unordered_map<string, vector<string>> graph;
     unordered_map<string, string> parent;
-
+  
     for (int i = 0; i < N; i++) {
         string line;
         getline(cin, line);
