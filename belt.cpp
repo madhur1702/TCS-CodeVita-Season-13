@@ -9,7 +9,7 @@ int main() {
     unordered_map<string, vector<string>> graph;
     unordered_map<string, string> parent;
   
-    for (int i = 0; i < N; i++) {
+    for (int i = 0; i < N; i++) {  
         string line;
         getline(cin, line);
         stringstream ss(line);
@@ -76,3 +76,4 @@ int main() {
 }
 
 //tcs codevita conveyor belt
+
