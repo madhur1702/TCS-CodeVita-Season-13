@@ -3,7 +3,7 @@ using namespace std;
 
 int main() {
     int N;
-    cin >> N;
+    cin >> N;  
     cin.ignore();
 
     unordered_map<string, vector<string>> graph;
@@ -74,4 +74,5 @@ int main() {
     cout << total;
     return 0;
 }
+
 //tcs codevita conveyor belt
